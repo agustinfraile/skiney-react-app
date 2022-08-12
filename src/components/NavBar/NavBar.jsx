@@ -8,9 +8,9 @@ export default function NavBar () {
         <>
             <nav className='nav'>
                 <ul className='nav-list_container'>
-                    <li>Home</li>
-                    <li>Productos</li>
-                    <li>About</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">About</a></li>
                 </ul>
             </nav>
         </>

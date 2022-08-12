@@ -4,8 +4,8 @@
     height: 5em;
 }
 .nav-list_container {
-    background-color: bisque;
-    width: 100%;
+    /* background-color: aqua; */
+    width: 90%;
     margin: 0 auto;
     /* padding: .52em 0; */
     height: 5em;
@@ -13,11 +13,25 @@
 }
 
 .nav-list_container li {
-    /* background-color: aqua; */
-    width: 90%;
+    background-color: bisque;
+    width: 100%;
     height: 5em;
     list-style: none;
-    margin: 0 1em;
+    margin: 0em 3em;
+    
     text-align: center;
     line-height: 4.5em;
+}
+
+.nav-list_container li a {
+    /* background-color: red; */
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    height: 5em;
+}
+
+.nav-list_container li a:hover {
+    background-color: rgb(236, 204, 165);
 }
