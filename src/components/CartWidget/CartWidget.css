@@ -1,0 +1,19 @@
+.icon-container {
+    /* background-color: #fff; */
+    width: 3em;
+    /* height: 3em; */
+}
+
+.icon-container_cart {
+    /* width: 3em; */
+    height: 2.5em;
+    color: #f1f1f1;
+    display: block;
+
+}
+
+.icon-container_cart:hover{
+    color: #bfbdbd;
+    height: 2.5em;
+    transition: .5s;
+}
