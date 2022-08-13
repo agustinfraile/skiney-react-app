@@ -1,18 +1,24 @@
-import react from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-// CSS
-import './NavBar.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function NavBar () {
+function ColorSchemesExample() {
     return (
         <>
-            <nav className='nav'>
-                <ul className='nav-list_container'>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-            </nav>
+            <Navbar bg="dark" variant="dark">
+                <Container>
+                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                <Nav className="me-auto">
+                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="#features">Features</Nav.Link>
+                    <Nav.Link href="#pricing">Pricing</Nav.Link>
+                </Nav>
+                </Container>
+            </Navbar>
         </>
-    )
+    );
 }
+
+export default ColorSchemesExample;
